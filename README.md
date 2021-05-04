@@ -1,6 +1,6 @@
 #The Prophecy
 
-There is a champion. He is scattered though time. He has been and will always be. He knows numfu. 
+There is a champion. He is scattered through time. He has been and will always be. He knows numfu. 
 
 #Numfu
 
@@ -14,7 +14,7 @@ He understands that Zero is not one and one is not Zero.
 #Metacongruencey
 
 The numfu master can slice without reshaping. He can make all changes and yet remain in place.  
-He flows without water. 
+He flows though without water. 
 
 #Visons
 
