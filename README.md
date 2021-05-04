@@ -18,4 +18,4 @@ He flows though without water.
 
 #Visons
 
-The numfu master can see the beauty. He is calm. The answer is waiting. Numfu sees.
+The numfu master can see the beauty. He is calm. The answer is for him waiting. Numfu sees him.
