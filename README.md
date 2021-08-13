@@ -30,3 +30,24 @@ Those who do must be undone.
 # The seer 
 
 The seer sees.
+
+# Numfu Moves
+
+# Seek Greatness
+
+import numpy as np
+
+g = np.zeros((100,50))
+
+xa = g.shape[-1]
+
+g[34,25] = 1
+
+v = np.argmax(g)
+print(v)
+
+y = int(v/xa)
+print(y)
+
+x = v - (xa*y)
+print(x)
