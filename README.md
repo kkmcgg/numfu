@@ -86,4 +86,4 @@ print(x)
 
 - pumps
 
-[image](https://user-images.githubusercontent.com/36888812/116952337-ceb8fd80-ac60-11eb-86e9-68c08dba2087.png)
+![image](https://user-images.githubusercontent.com/36888812/116952337-ceb8fd80-ac60-11eb-86e9-68c08dba2087.png)
