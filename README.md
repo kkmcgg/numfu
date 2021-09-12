@@ -51,3 +51,38 @@ print(y)
 
 x = v - (xa*y)
 print(x)
+
+# Good things
+
+- fung shui (num shui?)
+
+- fancy keyboards
+
+- black and white things
+
+- RGB
+
+- midi
+
+- plants
+
+- reptiles
+
+- water
+
+- keytars 
+
+- space
+
+# pretty good things
+
+- tires 
+
+- umbrellas 
+
+- smoke machines 
+
+- gears 
+
+- pumps
+
