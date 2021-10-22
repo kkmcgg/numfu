@@ -1,7 +1,8 @@
-#learn Numfu
+# Use Numfu
 
+```
 pip install numfu
-
+```
 
 ![image](numfu.png)
 
