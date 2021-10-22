@@ -90,3 +90,6 @@ print(x)
 
 #names
 https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering
+
+#setup guide
+https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
