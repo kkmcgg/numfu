@@ -1,3 +1,8 @@
+#learn Numfu
+
+pip install numfu
+
+
 ![image](numfu.png)
 
 
