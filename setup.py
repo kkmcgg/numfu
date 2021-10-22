@@ -6,7 +6,7 @@ import setuptools
 setuptools.setup(
     name='numfu',
     # packages = ['numfu'],
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='Master the numpy arts',
     long_description='',
