@@ -94,11 +94,11 @@ print(x)
 
 ![image](https://user-images.githubusercontent.com/36888812/116952337-ceb8fd80-ac60-11eb-86e9-68c08dba2087.png)
 
-#names
+# names
 https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering
 
-#setup guide
+# setup guide
 https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
 
-#zen
+# zen
 https://www.python.org/dev/peps/pep-0020/
