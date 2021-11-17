@@ -102,3 +102,6 @@ https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65
 
 # zen
 https://www.python.org/dev/peps/pep-0020/
+
+
+![image](https://user-images.githubusercontent.com/36888812/142271921-c9891842-1e05-45ba-8ffe-38eff84f0b2b.png)
