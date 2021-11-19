@@ -94,11 +94,18 @@ print(x)
 
 ![image](https://user-images.githubusercontent.com/36888812/116952337-ceb8fd80-ac60-11eb-86e9-68c08dba2087.png)
 
-#names
+# names
 https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering
 
-#setup guide
+# setup guide
 https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
 
-#zen
+# zen
 https://www.python.org/dev/peps/pep-0020/
+
+
+![image](https://user-images.githubusercontent.com/36888812/142271921-c9891842-1e05-45ba-8ffe-38eff84f0b2b.png)
+![image](https://user-images.githubusercontent.com/36888812/142275660-7ce6bc22-fa03-4528-93e2-45be7961af43.png)
+![image](https://user-images.githubusercontent.com/36888812/142275709-d51b755b-15fd-4975-bcfe-c947c8410cd2.png)
+![image](https://user-images.githubusercontent.com/36888812/142275891-c32d0729-f98e-4d16-af6d-0491fe85d6c0.png)
+
