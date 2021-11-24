@@ -170,6 +170,10 @@ def nian(): #'twist'
 def fangsha(): #'spinning'
     pass
 
+def dao(): #direction, way, method, road, path, principle, truth, reason, skill, method, Tao (of Taoism), a measure word, to say, to speak, to talk
+    'cost function'
+    pass
+
 if __name__ == '__main__':
     import numpy
 
