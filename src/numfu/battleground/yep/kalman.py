@@ -1,3 +1,5 @@
+import numpy as np
+
 # a simple kalman filter
 
 # state matrix:             2N+1 values
@@ -46,7 +48,7 @@ class KalmanFilter:
 
     def predict(self):
         self.X = self.F * self.X
-        self.P = self.F * self.P * self.F.T + self.Q
+        self.P = self.F * self.P * self.F.T #+ self.Q
 
     def measure(self, z):
         K = self.P * self.H.T * np.linalg.inv(self.H * self.P * self.H.T + self.R)
@@ -87,8 +89,8 @@ def main():
     zs = []
     kalman_predictions = []
     for i in range(100):
-        z = np.matrix([[i+randn()*std_meas],
-                       [i+randn()*std_meas]])
+        z = np.matrix([[i+np.random.randn()*std_meas],
+                       [i+np.random.randn()*std_meas]])
         zs.append(z)
 
         kf.measure_and_update(z)
