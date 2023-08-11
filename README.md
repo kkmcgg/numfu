@@ -46,6 +46,43 @@ Perfection is an endless pursuit. A Numfu master not only creates but continuall
 
 # Moves (Standalone Functions)
 
+## Numfu's Wisdom in Moves
+
+### **Zài (在)**: *In*
+- Determines if points are inside a specific polygon. If no polygon is provided, a random polygon is generated to test the points against. This move embodies the essence of being "within" or "inside".
+
+### **Gōng (公)**: *Just, Honorable*
+- This move graces data with the honor of aggregation, transforming individual data points into summarized representations based on spatial coordinates.
+
+### **Zǐ (子)**: *Child, Son*
+- Harmonizes two inputs, portraying their balanced difference. Like the relationship between a parent and child, it highlights the contrasts while emphasizing the underlying unity.
+
+### **Shēng (生)**: *To Be Born, Life, Growth*
+- Generates random values, either as integers or floats. It breathes life into data, giving birth to new values to enrich our analyses.
+
+### **Dīng (定)**: *To Set, Decide*
+- Applies filters to the data, refining its essence. This move is all about decision-making, selecting the best from the lot.
+
+### **Jiàn (见)**: *To See, Appear*
+- Makes the data known, displaying it for the world to witness. Through this move, what was hidden now becomes evident.
+
+### **Biāo (飙)**: *Whirlwind*
+- Normalizes difference ratios, creating a whirlwind transformation of data. It emphasizes the spirit of agility and quickness.
+
+### **Nián (捻)**: *Twist*
+- Yet to be unveiled, this move holds the promise of intricately weaving data, twirling it into new formations.
+
+### **Fàngshā (纺纱)**: *Spinning*
+- Yet to be elucidated, this move whispers of crafting delicate threads of information, spinning raw data into intricate narratives.
+
+### **Dào (道)**: *Way, Method, Tao*
+- The underlying principle or method, perhaps a cost function. It guides our journey through data, showing the way.
+
+---
+
+Engaging with these moves, one finds the balance of Yin and Yang in data, the dance between raw information and processed wisdom.
+
+
 1. **Fēng (风)**: *Wind* 
     - Reshape an array, giving it a new form without changing its data.
 
