@@ -1,58 +1,64 @@
 import numpy
 
-def zai(points, polygon, append = -2): #'in'
+def zai(points, polygon, append=-2):  # 'in'
+    """
+    Check if points are inside a polygon.
+
+    Parameters:
+    - points: A list of points to be checked.
+    - polygon: A list of vertices representing the polygon or 'random' to generate a random polygon.
+    - append: Some parameter for future logic. Default is -2.
+
+    Returns:
+    - Either a Boolean array indicating whether each point is in the polygon or the function itself (self).
+    """
+
+    # If the polygon is set to random, generate a random one.
     if polygon == 'random':
-        #make a random polygon! (for testing) 
-        n = 5
-        #random points
+        n = 5  # Number of points for the random polygon.
+        
+        # Generate random x and y points.
         px = (np.random.rand(n))
         py = (np.random.rand(n))
-        #scale them to data
-        pxm,pxM = self.df.x.min(),self.df.x.max()
-        pym,pyM = self.df.y.min(),self.df.y.max()
-        px = px*(pxM-pxm)+pxm
-        py = py*(pyM-pym)+pym
-        #make into polygon (add first point to end)
+        
+        # Scale the random points to data boundaries.
+        pxm, pxM = self.df.x.min(), self.df.x.max()
+        pym, pyM = self.df.y.min(), self.df.y.max()
+        px = px * (pxM - pxm) + pxm
+        py = py * (pyM - pym) + pym
+        
+        # Convert the list of points to a continuous polygon (closing the loop).
         px = np.concatenate((px, np.array([px[0]])))
         py = np.concatenate((py, np.array([py[0]])))
-        polygon = px,py
-        polygon = np.asarray(polygon)
-        polygon = polygon.T
-        # print polygon
-        # raw_input('random polygon ok?')
-    
+        polygon = np.asarray((px, py)).T
+
+    # Number of points to be checked.
     n = self.df.x.size
-    vert = polygon.shape[0]-1
-    # print 'shape', polygon.shape
-    # raw_input('is this ok?')
-    wn = self.df.x*0
-    for i in range(0,vert):
-        P0,P1 = polygon[i], polygon[i+1]
-        print(P0, P1)
-        pgon = polygon[i:i+2].T[1]
+    # Number of vertices in the polygon.
+    vert = polygon.shape[0] - 1
+    wn = self.df.x * 0  # Initialize winding number.
+
+    # Check each segment of the polygon.
+    for i in range(vert):
+        P0, P1 = polygon[i], polygon[i + 1]  # Endpoints of the current segment.
+        
+        # Some logic related to the segment's y-coordinates.
+        pgon = polygon[i:i + 2].T[1]
         st = np.argsort(pgon)
+        left = (((P1[0] - P0[0]) * (self.df.y - P0[1]) - (self.df.x - P0[0]) * (P1[1] - P0[1])) < 0)
+        strip = np.logical_and(self.df.y >= pgon[st[0]], self.df.y < pgon[st[1]])
 
-        left = (((P1[0]-P0[0])*(self.df.y-P0[1])-(self.df.x-P0[0])*(P1[1]-P0[1]))<0)
-        strip = np.logical_and(self.df.y>=pgon[st[0]], self.df.y<pgon[st[1]])
-
+        # Update the winding number based on the current segment.
         if st[0]:
-            print('purple minus',st)
-            wn -= ~left&strip
+            wn -= ~left & strip
         else:
-            print('green plus',st)
-            wn += left&strip
+            wn += left & strip
 
-    #could just put out the winding number
-    # self.df['wn']=wn
-
-    # idx=idx.astype('bool')
-
+    # Return based on the winding number.
     if append == -2:
-        # print(idx.dtype)
-        idx  = wn!=0
+        idx = wn != 0
         return idx
 
-    #todo list
     return self
 
 def gong(self, val, agg, scale, where =1, x='x', y='y', aggmode = 'np'): #	just, honorable (designation), public, common
