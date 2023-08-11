@@ -1,113 +1,102 @@
 ![circuscubebook](https://user-images.githubusercontent.com/36888812/143304158-e32c3f8a-3efe-4f39-823f-4c089f74f293.gif)
 
-# Use Numfu
+# Numfu: The Numeric Way of the Flow
 
-```
+Unveil the mysteries of numeric computations through the lens of ancient Eastern wisdom.
+
+## 📦 Installation
+
 pip install numfu
-```
 
-![image](numfu.png)
+## 📜 The Scroll of Numfu
 
+<i>In the silent realms of the ancients, where whispers of wisdom still linger, Numfu reveals itself as an enigma, draped in shadows yet radiant with insight. As the adept navigates the labyrinth of its elusive 'moves', they embark on a journey: a dance between the tangible and the ethereal, the seen and the unseen. Just as a masterful strategist perceives the rhythm beneath the chaos of battle, so too does the practitioner of Numfu discern the patterns hiding within the maze of the unknown. It beckons, not to be merely used, but to be understood - an art, a philosophy, a way</i>
 
-# The Prophecy
+## 🎋 Pillars of Numfu
 
-There is a champion. He is scattered through time. He has been and will always be. He knows numfu. 
+### 🌀 The Balance of Zero & One
 
-# Numfu
+In Numfu's realm, both void (0) and existence (1) hold significance. Mastery is in knowing, respecting, and utilizing this balance.
 
-Numfu is python. Numfy is numpy. It is from time. It is our heart. It flows. Numfu. 
+### 🌊 The Fluid Transformation
 
-# The Cadinal Ether
+A Numfu sage shapes, bends, and orchestrates data with a fluid grace, akin to the timeless flow of a river sculpting the earth.
 
-There are two. There is zero and there is one. They flow though the numfu master. 
-He understands that Zero is not one and one is not Zero.
+### 🌌 Cosmic Vision
 
-# Metacongruencey
+With serenity and equilibrium, the Numfu adept discerns data's hidden constellations, revealing truths that evade the untrained eye.
 
-The numfu master can slice without reshaping. He can make all changes and yet remain in place.  
-He flows though without water. 
+### 🛠 Mastery Through Testing
 
-# Visons
+Perfection is an endless pursuit. A Numfu master not only creates but continually refines and tests, ensuring harmony with the cosmic numeric dance.
 
-The numfu master can see the beauty. He is calm. The answer is for him waiting. Numfu sees him.
+## 🍂 Elements in Harmony with Numfu
 
-# The tester
-
-Those who do must be undone.
-
-# The seer 
-
-The seer sees.
-
-# Numfu Moves
-
-# Seek Greatness
-
-import numpy as np
-
-g = np.zeros((100,50))
-
-xa = g.shape[-1]
-
-g[34,25] = 1
-
-v = np.argmax(g)
-print(v)
-
-y = int(v/xa)
-print(y)
-
-x = v - (xa*y)
-print(x)
-
-# Good things
-
-- fung shui (num shui?)
-
-- fancy keyboards
-
-- black and white things
-
-- RGB
-
-- midi
-
-- plants
-
-- reptiles
-
-- water
-
-- keytars 
-
-- space
-
-# pretty good things
-
-- tires 
-
-- umbrellas 
-
-- smoke machines 
-
-- gears 
-
-- pumps
-
-![image](https://user-images.githubusercontent.com/36888812/116952337-ceb8fd80-ac60-11eb-86e9-68c08dba2087.png)
-
-# names
-https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering
-
-# setup guide
-https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
-
-# zen
-https://www.python.org/dev/peps/pep-0020/
+### Elements of Serenity
+- The art of `Num Shui`: Aligning arrays in harmony
+- Aesthetics of simplicity: Black, white, and the spaces in between
+- Nature's resonance: Plants, reptiles, and flowing waters
+- Melodies of the universe: MIDI, keytars, and the whispers of cosmic void
 
 
-![image](https://user-images.githubusercontent.com/36888812/142271921-c9891842-1e05-45ba-8ffe-38eff84f0b2b.png)
-![image](https://user-images.githubusercontent.com/36888812/142275660-7ce6bc22-fa03-4528-93e2-45be7961af43.png)
-![image](https://user-images.githubusercontent.com/36888812/142275709-d51b755b-15fd-4975-bcfe-c947c8410cd2.png)
-![image](https://user-images.githubusercontent.com/36888812/142275891-c32d0729-f98e-4d16-af6d-0491fe85d6c0.png)
+### Instruments of the Sage
+- Tires: Representing life's cyclical journey
+- Umbrellas: Safeguarding against the storm of errors
+- The mechanics of time: Gears, pumps, and the ever-ticking clock
 
+# Moves (Standalone Functions)
+
+1. **Fēng (风)**: *Wind* 
+    - Reshape an array, giving it a new form without changing its data.
+
+2. **Yuè (月)**: *Moon* 
+    - Transpose the matrix, swapping rows with columns.
+
+3. **Wǔ (五)**: *Five* 
+    - Normalize array values, bringing them to a common scale.
+
+4. **Lóng (龙)**: *Dragon* 
+    - Apply a mathematical function over the array to enhance its values.
+
+5. **Yǐn (隐)**: *Hidden* 
+    - Extract a sub-array or specific indices from the original array.
+
+6. **Fèn (凤)**: *Phoenix* 
+    - Recycle and reuse memory from redundant arrays.
+
+7. **Shān (山)**: *Mountain* 
+    - Anchor or fix specific values in an array, making them immovable.
+
+8. **Tiān (天)**: *Heaven/Celestial* 
+    - Rotate or shift array elements along an axis.
+
+9. **Hǔ (虎)**: *Tiger* 
+    - Filter the array based on a condition or criteria.
+
+10. **Lián (莲)**: *Lotus* 
+    - Flatten or unravel nested arrays into a single dimension.
+
+# Combos (Sequences of Moves)
+
+1. **Fēng-Yuè Dance (风-月)** 
+    - Reshape an array and then transpose it, combining flexibility with transformation.
+
+2. **Lóng-Tiān Ascend (龙-天)** 
+    - Enhance data values with a mathematical function and then rotate them, infusing and then redistributing energy.
+
+3. **Yǐn-Shān Anchor (隐-山)** 
+    - Extract specific values from an array and anchor them, spotlighting and cementing importance.
+
+4. **Hǔ-Lián Unfold (虎-莲)** 
+    - Filter specific values based on a condition and then flatten the result, refining and simplifying data.
+
+5. **Wǔ-Fèn Renewal (五-凤)** 
+    - Normalize an array's values and then recycle its memory, optimizing both data and resources.
+
+
+
+## 📚 Scrolls & Tomes for Further Mastery
+
+- [The Alphabets of Science & Math](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering)
+- [Path to Sharing Your Wisdom (PyPi Guide)](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+- [Python's Zen](https://www.python.org/dev/peps/pep-0020/)
