@@ -4,7 +4,7 @@
 
 Master of the Matrix -  Combos, Moves, and Stances for Numpy 
 
-## 📦 Installation
+## Installation
 
 pip install numfu
 
@@ -12,25 +12,25 @@ pip install numfu
 
 <i>In the silent realms of the ancients, where whispers of wisdom still linger, Numfu reveals itself as an enigma, draped in shadows yet radiant with insight. As the adept navigates the labyrinth of its elusive 'moves', they embark on a journey: a dance between the tangible and the ethereal, the seen and the unseen. Just as a masterful strategist perceives the rhythm beneath the chaos of battle, so too does the practitioner of Numfu discern the patterns hiding within the maze of the unknown. It beckons, not to be merely used, but to be understood - an art, a philosophy, a way</i>
 
-## 🎋 Pillars of Numfu
+## Pillars of Numfu
 
-### 🌀 The Balance of Zero & One
+###  The Balance of Zero & One
 
 In Numfu's realm, both void (0) and existence (1) hold significance. Mastery is in knowing, respecting, and utilizing this balance.
 
-### 🌊 The Fluid Transformation
+### The Fluid Transformation
 
 A Numfu sage shapes, bends, and orchestrates data with a fluid grace, akin to the timeless flow of a river sculpting the earth.
 
-### 🌌 Cosmic Vision
+### Cosmic Vision
 
 With serenity and equilibrium, the Numfu adept discerns data's hidden constellations, revealing truths that evade the untrained eye.
 
-### 🛠 Mastery Through Testing
+### Mastery Through Testing
 
 Perfection is an endless pursuit. A Numfu master not only creates but continually refines and tests, ensuring harmony with the cosmic numeric dance.
 
-## 🍂 Elements in Harmony with Numfu
+## Elements in Harmony with Numfu
 
 ### Elements of Serenity
 - The art of `Num Shui`: Aligning arrays in harmony
@@ -80,7 +80,7 @@ Perfection is an endless pursuit. A Numfu master not only creates but continuall
 
 ---
 
-Engaging with these moves, one finds the balance of Yin and Yang in data, the dance between raw information and processed wisdom.
+🛠  Engaging with these moves, one finds the balance of Yin and Yang in data, the dance between raw information and processed wisdom.
 
 
 1. **Fēng (风)**: *Wind* 
