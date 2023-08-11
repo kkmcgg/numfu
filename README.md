@@ -2,7 +2,7 @@
 
 # Numfu: The Numeric Way of the Flow
 
-Unveil the mysteries of numeric computations through the lens of ancient Eastern wisdom.
+Master over the Matrix 
 
 ## 📦 Installation
 
