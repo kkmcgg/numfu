@@ -2,7 +2,7 @@
 
 # Numfu: The Numeric Way of the Flow
 
-Master over the Matrix 
+Master the Matrix -  Combos, Moves, and Stances for Numpy 
 
 ## 📦 Installation
 
