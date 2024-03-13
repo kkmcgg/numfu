@@ -137,3 +137,4 @@ Perfection is an endless pursuit. A Numfu master not only creates but continuall
 - [The Alphabets of Science & Math](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering)
 - [Path to Sharing Your Wisdom (PyPi Guide)](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
 - [Python's Zen](https://www.python.org/dev/peps/pep-0020/)
+- [otsus method for thresholding](https://muthu.co/otsus-method-for-image-thresholding-explained-and-implemented/)
